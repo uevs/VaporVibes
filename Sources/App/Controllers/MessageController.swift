@@ -17,10 +17,7 @@ struct MessageController: RouteCollection {
         guard let message = try await Message.query(on: req.db).all().randomElement() else {
             return "No good vibes yet :("
         }
-        
         return "Your good vibe is \(message.message) from \(message.from)"
-
-
     }
     
     func retrieve(req: Request) async throws -> Message {
