@@ -6,11 +6,19 @@ struct MessageController: RouteCollection {
         let messages = routes.grouped("vibes")
         messages.get(use: index)
         messages.post(use: create)
+        messages.group("all") { message in
+            message.get(use:getAll)
+        }
         messages.group(":messageID") { message in
             message.delete(use: delete)
             message.get(use: retrieve)
             message.put(use: update)
         }
+    }
+    
+    func getAll(req: Request) async throws -> [Message] {
+        try await Message.query(on: req.db).all()
+
     }
 
     func index(req: Request) async throws -> String {
@@ -21,6 +29,7 @@ struct MessageController: RouteCollection {
     }
     
     func retrieve(req: Request) async throws -> Message {
+
         guard let message = try await Message.find(req.parameters.get("messageID"), on: req.db) else {
             throw Abort(.notFound)
         }
