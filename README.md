@@ -15,6 +15,7 @@
 </p>
 
 A simple Vapor implementation to learn about Swift On Server.
+
 An iOS frontend can be found [here](https://github.com/uevs/GoodVibes) and on [TestFlight](https://testflight.apple.com/join/oDaC4Crc).
 
 ## Description
