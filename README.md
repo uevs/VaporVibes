@@ -15,6 +15,7 @@
 </p>
 
 A simple Vapor implementation to learn about Swift On Server.
+An iOS frontend can be found [here](https://github.com/uevs/GoodVibes) and on [TestFlight](https://testflight.apple.com/join/oDaC4Crc).
 
 ## Description
 This project allows Academy hackers to send good vibes to each other. You can send a new vibe with a POST request and you can get a random vibe with a GET request. If you save your vibe ID while you create a new one, you can also edit or delete it at a later time with PUT and DELETE requests.
