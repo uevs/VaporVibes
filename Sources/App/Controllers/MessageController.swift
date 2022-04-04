@@ -10,9 +10,9 @@ struct MessageController: RouteCollection {
             message.get(use:getAll)
         }
         messages.group(":messageID") { message in
-            message.delete(use: delete)
             message.get(use: retrieve)
-            message.put(use: update)
+//            message.delete(use: delete)
+//            message.put(use: update)
         }
     }
     
