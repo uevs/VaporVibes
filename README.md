@@ -47,7 +47,7 @@ It's actually easier that what it looks like. I'm trying to explain these terms 
 
 ## Understanding the Vapor template
 
-A Vapor project is full of files and dependancies and it can be daunting, but it's actually made of three fundamental parts:
+A Vapor project is full of files and dependancies and it can be daunting, but it's actually easy if you just start by focusing on three really important parts:
 
 1) Controllers
 2) Migrations
