@@ -1,7 +1,10 @@
 
 # VaporVibes
 
-![vv1](https://user-images.githubusercontent.com/36189306/161720306-4d27a0a8-9bac-4c13-a1e9-27407b5c4f28.png)
+<p align="center">
+<img width="500" alt="vibes" src="https://user-images.githubusercontent.com/36189306/161736260-f8ec9b05-1ba7-4274-8931-385bdb5572e8.png">
+</p>
+
 
 <p align="center">
     <a href="#" alt="Xcode Version">
