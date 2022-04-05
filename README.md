@@ -1,5 +1,5 @@
 
-# VaporVibes
+# VaporVibes - Good Vibes Backend
 
 <p align="center">
 <img width="500" alt="vibes" src="https://user-images.githubusercontent.com/36189306/161736260-f8ec9b05-1ba7-4274-8931-385bdb5572e8.png">
